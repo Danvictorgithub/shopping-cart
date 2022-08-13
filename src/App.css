@@ -4,11 +4,13 @@
     font-family: 'Roboto', sans-serif;
 }
 html,
-body {
+body, 
+#root {
   height: 100%;
   margin: 0;
 }
 .App {
     display:flex;
     flex-flow: column;
+    height: 100%;
 }
