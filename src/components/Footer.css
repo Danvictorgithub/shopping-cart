@@ -1,6 +1,12 @@
 .Footer {
     flex: 0 1 40px;
+    background-color:#DADADA;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    z-index:auto;
 }
-.Footer h3 {
-    text-align:center;
+.Footer img {
+    height:25px;
+    margin-left:10px;
 }

@@ -1,12 +1,13 @@
 import './Nav.css';
+import {Link} from 'react-router-dom';
 function Nav({cartNum}) {
     return(
-        <div class="Nav">
-            <h1>Now <span>Gaming!</span></h1>
+        <div className="Nav">
+            <Link to='/'><h1>Now <span>Gaming!</span></h1></Link>
             <ul>
-                <li>Products</li>
-                <li>About</li>
-                <li>Cart ({cartNum})</li>
+                <Link to='/Products'><li>Products</li></Link>
+                <Link to='/About'><li>About</li></Link>
+                <Link to='/Cart'><li>Cart ({cartNum})</li></Link>
             </ul>
         </div>
     )
