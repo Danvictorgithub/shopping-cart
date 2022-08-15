@@ -11,7 +11,7 @@ import legion7 from '../legion7.png';
 import nitro5 from '../nitro5.png';
 import victus16 from '../victus16.png';
 
-function Products() {
+function Products({getItemFunction}) {
     const [products,addProduct] = useState([
         {
             name:'Xbox Series X',
@@ -73,11 +73,11 @@ function Products() {
                 <div className='productCards'>
                     {products.map( (product) =>{
                         return(
-                            <div className='card'>
+                            <div key={product.name}className='card'>
                                 <img src={product.img}/>
                                 <p className='productName'>{product.name}</p>
                                 <p className='price'>{product.price} $</p>
-                                <button type='button' className='productButton'>Buy</button>
+                                <button productname={product.name} price={product.price} imgsrc={product.img} type='button' onClick={getItemFunction} className='productButton'>Buy</button>
                             </div>
                         )
                     })}
