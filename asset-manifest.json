@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.995fd12d.css",
+    "main.js": "/shopping-cart/static/js/main.aa75f778.js",
+    "static/media/ps5.png": "/shopping-cart/static/media/ps5.a7f87e462d91b9a4efce.png",
+    "static/media/switch.png": "/shopping-cart/static/media/switch.5d8b796a2b4424210411.png",
+    "static/media/steamDeck.png": "/shopping-cart/static/media/steamDeck.4c2996b07853a504343b.png",
+    "static/media/legion7.png": "/shopping-cart/static/media/legion7.3444bbc9240d8e209746.png",
+    "static/media/xboxS.png": "/shopping-cart/static/media/xboxS.0aceaa2d21510cbe7de8.png",
+    "static/media/gamingcpuhero.png": "/shopping-cart/static/media/gamingcpuhero.55b06e80ba821cdc3fb6.png",
+    "static/media/xboxX.png": "/shopping-cart/static/media/xboxX.3ae2f7e2576433377e4d.png",
+    "static/media/nitro5.png": "/shopping-cart/static/media/nitro5.d40fafd484466711eddf.png",
+    "static/media/steam_deck_03.jpg": "/shopping-cart/static/media/steam_deck_03.867e023ade73b7f048ad.jpg",
+    "static/media/victus16.png": "/shopping-cart/static/media/victus16.b17df69e295282ed230f.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.995fd12d.css.map": "/shopping-cart/static/css/main.995fd12d.css.map",
+    "main.aa75f778.js.map": "/shopping-cart/static/js/main.aa75f778.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.995fd12d.css",
+    "static/js/main.aa75f778.js"
+  ]
+}
