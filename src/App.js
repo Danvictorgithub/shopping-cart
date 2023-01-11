@@ -26,7 +26,7 @@ function App() {
 ;  }
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/shopping-cart">
         <Nav cartNum={cartItems.length}/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
